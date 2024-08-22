@@ -42,6 +42,11 @@
             "name": "Fairy Cave",
             "access_rules": [
               "{csmc, $access_dm_west_base, merge}",
+              "{csmc, glitched, merge}",
+              "{csmc, glitched, $access_dm_west_top, $boom_hook_fire}",
+              "{csmc, advanced, $adv_glitched_access_dm_west_top, $boom_hook_fire}",
+              "{csmc, hell, $hell_glitched_access_dm_west_top, $boom_hook_fire}",
+
               "$access_dm_west_base, merge, $boulder",
               "[glitched], merge, $boulder",
               "[glitched], $access_dm_west_top, $stun, $boulder",
@@ -66,7 +71,13 @@
             "name": "Peg Chest",
             "access_rules": [
               "{csmc, power_glove}",
+              "{csmc, glitched, merge}",
+              "{csmc, $access_dm_west_top}",
+              "{csmc, advanced, $adv_glitched_access_dm_west_top}",
+              "{csmc, hell, $hell_glitched_access_dm_west_top}",
+
               "$access_dm_west_base, merge, hammer",
+              "[glitched], merge, hammer",
               "[glitched], $access_dm_west_top, $stun, hammer",
               "[advanced], $adv_glitched_access_dm_west_top, $stun, hammer",
               "[hell], $hell_access_dm_west_top, $stun, hammer"
@@ -379,21 +390,20 @@
         ],
         "sections": [
           {
-            "name": "Floating Island Portal",
-            "hosted_item": "portal_hyfi",
+            "name": "Floating Island Crack",
+            "hosted_item": "crack_hyfi",
             "access_rules": [
-              "portal_hyfi",
-              "{}"
+              "crack_hyfi"
             ],
             "visibility_rules": [
-              "portal_shuffle"
+              "cracksanity"
             ]
           },
           {
             "name": "Floating Island",
             "access_rules": [
-              "portal_hyfi, merge",
-              "not_portal_shuffle, portal_lofi, merge, quake"
+              "crack_hyfi, merge",
+              "not_cracksanity, crack_lofi, merge, quake"
             ],
             //"capture_item": true,
             "item_count": 1

@@ -249,7 +249,7 @@
         "sections": [
           {
             "name": "Dungeon",
-            "item_count": 6,
+            "item_count": 3,
             "clear_as_group": false,
             "access_rules": [
               "progression_enemies, [lamp], [merge], [$knucklemaster]",

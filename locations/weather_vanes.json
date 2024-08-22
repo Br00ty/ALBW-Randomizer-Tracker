@@ -206,8 +206,8 @@
             "access_rules": [
               "wv_desert",
               "$access_desert, srod, scroll",
-              "not_portal_shuffle, merge, quake, srod",
-              "portal_shuffle, merge, portal_desert_sw, srod",
+              "not_cracksanity, merge, quake, srod",
+              "cracksanity, merge, crack_desert_sw, srod",
               "[glitched], $access_desert"
             ],
             "visibility_rules": [

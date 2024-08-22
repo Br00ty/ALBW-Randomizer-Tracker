@@ -8,7 +8,7 @@
         "name": "Lost Woods",
         "children": [
           {
-            "name": "Lost Woods",
+            "name": "Lost Woods Big Rock Chest",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -18,7 +18,6 @@
             ],
             "sections": [
               {
-                "name": "Big Rock Chest",
                 "capture_item": true,
                 "access_rules": [
                   "{csmc}",
@@ -33,7 +32,7 @@
             ]
           },
           {
-            "name": "Lost Woods",
+            "name": "Lost Woods Alcove",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -43,10 +42,8 @@
             ],
             "sections": [
               {
-                "name": "Alcove",
                 "capture_item": true,
                 "access_rules": [
-                  //"{}",
                   "{glitched, boomerang}",
                   "{glitched, not_nice_mode, hookshot}",
                   "merge",
@@ -60,7 +57,7 @@
             ]
           },
           {
-            "name": "Lost Woods",
+            "name": "Master Sword Pedestal",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -70,7 +67,6 @@
             ],
             "sections": [
               {
-                "name": "Master Sword Pedestal",
                 "access_rules": [
                   "ped_requirement_3, power, wisdom, courage",
                   "ped_requirement_2, power, wisdom"
@@ -104,14 +100,13 @@
                 "item_count": 1
               },
               {
-                "hosted_item":"portal_rossos_house",
-                "name": "Rosso's House Portal",
+                "hosted_item":"crack_rossos_house",
+                "name": "Rosso's House Crack",
                 "access_rules": [
-                  "{}",
                   "rosso"
                 ],
                 "visibility_rules": [
-                  "portal_shuffle"
+                  "cracksanity"
                 ]
               }
             ]
@@ -155,7 +150,7 @@
             ]
           },
           {
-            "name": "Lost Woods Region",
+            "name": "Hyrule Hotfoot 75s",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -170,7 +165,6 @@
             ],
             "sections": [
               {
-                "name": "Hyrule Hotfoot 75s",
                 "access_rules": [
                   "boots",
                   "[hard]"
@@ -200,7 +194,7 @@
         "name": "River Area",
         "children": [
           {
-            "name": "Sanctuary",
+            "name": "Dampé",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -210,7 +204,6 @@
             ],
             "sections": [
               {
-                "name": "Dampé",
                 "item_count": 1
               }
             ]
@@ -280,22 +273,21 @@
             ],
             "sections": [
               {
-                "hosted_item": "portal_graveyard",
-                "name": "Graveyard Portal",
+                "hosted_item": "crack_graveyard",
+                "name": "Graveyard Crack",
                 "access_rules": [
-                  "portal_graveyard",
-                  "{}"
+                  "crack_graveyard"
                 ],
                 "visibility_rules": [
-                  "portal_shuffle"
+                  "cracksanity"
                 ]
               },
               {
                 "name": "Cave",
                 //"capture_item": true,
                 "access_rules": [
-                  "merge, portal_graveyard",
-                  "not_portal_shuffle, merge, quake, portal_graveyard_lorule"
+                  "merge, crack_graveyard",
+                  "not_cracksanity, merge, quake, crack_graveyard_lorule"
                 ],
                 "item_count": 1
               }
@@ -313,11 +305,11 @@
             ],
             "sections": [
               {
-                "name": "Lorule Graveyard Portal",
-                "hosted_item": "portal_graveyard_lorule",
+                "name": "Lorule Graveyard Crack",
+                "hosted_item": "crack_graveyard_lorule",
                 "access_rules": [
-                  "portal_graveyard_lorule",
-                  "{portal_shuffle}",
+                  "crack_graveyard_lorule",
+                  "{cracksanity, $inspect_crack_lorule}",
                   "$access_lorule_graveyard, bombs, merge",
                   "$lampless_access_lorule_graveyard, bombs, merge"
                 ]
@@ -325,7 +317,7 @@
             ]
           },
           {
-            "name": "Sanctuary",
+            "name": "Sanctuary Treasure Dungeon",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -335,7 +327,6 @@
             ],
             "sections": [
               {
-                "name": "Treasure Dungeon",
                 "access_rules": [
                   "{csmc, bombs}",
                   "bombs, merge"
@@ -345,7 +336,7 @@
             ]
           },
           {
-            "name": "Sanctuary",
+            "name": "Sanctuary Peg Chest",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -355,7 +346,6 @@
             ],
             "sections": [
               {
-                "name": "Peg Chest",
                 "access_rules": [
                   "{csmc}",
                   "hammer"
@@ -365,7 +355,7 @@
             ]
           },
           {
-            "name": "Zora's Domain",
+            "name": "Zora Ledge Chest",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -375,7 +365,6 @@
             ],
             "sections": [
               {
-                "name": "Ledge Chest",
                 "access_rules": [
                   "{csmc, flippers}",
                   "{csmc, hell, $beeBoost}",
@@ -386,7 +375,7 @@
             ]
           },
           {
-            "name": "Zora's Domain",
+            "name": "Bump into Shady Guy",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -396,7 +385,6 @@
             ],
             "sections": [
               {
-                "name": "Bump into Shady Guy",
                 "access_rules": [
                   "merge",
                   "[hell], $beeBoost"
@@ -407,7 +395,7 @@
             ]
           },
           {
-            "name": "Zora's Domain",
+            "name": "Waterfall Cave",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -417,7 +405,6 @@
             ],
             "sections": [
               {
-                "name": "Waterfall Cave",
                 //"capture_item": true,
                 "access_rules": [
                   "flippers",
@@ -430,7 +417,7 @@
             ]
           },
           {
-            "name": "Zora's Domain",
+            "name": "Queen Oren",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -440,7 +427,6 @@
             ],
             "sections": [
               {
-                "name": "Queen Oren",
                 "access_rules": [
                   "merge, oren, smooth_gem",
                   "[hell], oren, smooth_gem, $beeBoost"
@@ -489,19 +475,18 @@
                 "name": "Stylish Woman",
                 "item_count": 1,
                 "access_rules": [
-                  "not_portal_shuffle, merge, quake, portal_thieves_town",
-                  "merge, portal_stylish_woman"
+                  "not_cracksanity, merge, quake, crack_thieves_town",
+                  "merge, crack_stylish_woman"
                 ]
               },
               {
-                "name": "Stylish Woman Portal",
-                "hosted_item": "portal_stylish_woman",
+                "name": "Stylish Woman Crack",
+                "hosted_item": "crack_stylish_woman",
                 "access_rules": [
-                  "{}",
-                  "portal_stylish_woman"
+                  "crack_stylish_woman"
                 ],
                 "visibility_rules": [
-                  "portal_shuffle"
+                  "cracksanity"
                 ]
               }
             ]
@@ -517,8 +502,10 @@
             ],
             "sections": [
               {
-                "name": "Under Rooftop Rock",
+                "name": "Maiamai Under Rooftop Rock",
                 "item_count": 1,
+                "chest_unopened_img": "images/items/maiamai.png",
+                "chest_opened_img": "images/items/maiamai_opened.png",
                 //"capture_item": true,
                 "visibility_rules": [
                   "maiamai_map"
@@ -583,7 +570,7 @@
             ]
           },
           {
-            "name": "Item Shop",
+            "name": "Kakariko Item Shop",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -604,7 +591,7 @@
             ]
           },
           {
-            "name": "Kakariko Village",
+            "name": "Kakariko Jail Cell",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -614,7 +601,6 @@
             ],
             "sections": [
               {
-                "name": "Jail Cell",
                 "access_rules": [
                   "{csmc}",
                   "merge"
@@ -651,7 +637,7 @@
             ]
           },
           {
-            "name": "Kakariko Village",
+            "name": "Kakariko Shady Guy",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -661,7 +647,6 @@
             ],
             "sections": [
               {
-                "name": "Shady Guy",
                 "access_rules": [
                   "shadyguy, merge",
                   "shadyguy, boots"
@@ -777,7 +762,7 @@
             ]
           },
           {
-            "name": "Hyrule Blacksmith",
+            "name": "Hyrule Blacksmith Maiamai",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -789,6 +774,8 @@
               {
                 "name": "Behind House",
                 //"capture_item": true,
+                "chest_unopened_img": "images/items/maiamai.png",
+                "chest_opened_img": "images/items/maiamai_opened.png",
                 "access_rules": [
                   //"{}",
                   "merge",
@@ -800,7 +787,7 @@
             ]
           },
           {
-            "name": "Hyrule Blacksmith",
+            "name": "Hyrule Blacksmith Big Rock Cave",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -810,7 +797,6 @@
             ],
             "sections": [
               {
-                "name": "Big Rock Cave",
                 //"capture_item": true,
                 "access_rules": [
                   "titansmitt",
@@ -822,7 +808,7 @@
             ]
           },
           {
-            "name": "Hyrule Castle",
+            "name": "Hyrule Castle Rock Circle",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -832,7 +818,6 @@
             ],
             "sections": [
               {
-                "name": "Rock Circle",
                 //"capture_item": true,
                 "access_rules": [
                   //"{}",
@@ -937,7 +922,7 @@
             ]
           },
           {
-            "name": "Eastern Ruins",
+            "name": "Eastern Ruins Bomb Cave",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -947,7 +932,6 @@
             ],
             "sections": [
               {
-                "name": "Bomb Cave",
                 //"capture_item": true,
                 "access_rules": [
                   //"{}",
@@ -958,7 +942,7 @@
             ]
           },
           {
-            "name": "Eastern Ruins",
+            "name": "Eastern Ruins Peg Circle",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -968,7 +952,6 @@
             ],
             "sections": [
               {
-                "name": "Peg Circle",
                 //"capture_item": true,
                 "access_rules": [
                   //"{}",
@@ -997,7 +980,7 @@
             ],
             "children": [
               {
-                "name": "Eastern Ruins",
+                "name": "Eastern Ruins Armos Chest",
                 "map_locations": [
                   {
                     "map": "hyrule",
@@ -1007,13 +990,12 @@
                 ],
                 "sections": [
                   {
-                    "name": "Armos Chest",
                     "item_count": 1
                   }
                 ]
               },
               {
-                "name": "Eastern Ruins",
+                "name": "Eastern Ruins Hookshot Chest",
                 "map_locations": [
                   {
                     "map": "hyrule",
@@ -1023,7 +1005,6 @@
                 ],
                 "sections": [
                   {
-                    "name": "Hookshot Chest",
                     "access_rules": [
                       "{csmc}",
                       "hookshot"
@@ -1033,7 +1014,7 @@
                 ]
               },
               {
-                "name": "Eastern Ruins",
+                "name": "Eastern Ruins Merge Chest",
                 "map_locations": [
                   {
                     "map": "hyrule",
@@ -1043,7 +1024,6 @@
                 ],
                 "sections": [
                   {
-                    "name": "Merge Chest",
                     "access_rules": [
                       "{csmc}",
                       "merge",
@@ -1057,7 +1037,7 @@
                 ]
               },
               {
-                "name": "Eastern Ruins",
+                "name": "Eastern Ruins Treasure Dungeon",
                 "map_locations": [
                   {
                     "map": "hyrule",
@@ -1067,7 +1047,6 @@
                 ],
                 "sections": [
                   {
-                    "name": "Treasure Dungeon",
                     "access_rules": [
                       "merge"
                     ],
@@ -1083,7 +1062,7 @@
         "name": "Southern Ruins",
         "children": [
           {
-            "name": "Southern Ruins",
+            "name": "Southern Ruins West Ledge Chest",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -1093,7 +1072,6 @@
             ],
             "sections": [
               {
-                "name": "West Ledge Chest",
                 "access_rules": [
                   "{csmc}",
                   "merge"
@@ -1122,7 +1100,7 @@
             ]
           },
           {
-            "name": "Southern Ruins",
+            "name": "Southern Ruins Pillars Cave",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -1132,7 +1110,6 @@
             ],
             "sections": [
               {
-                "name": "Pillars Cave",
                 //"capture_item": true,
                 "access_rules": [
                   //"{}",
@@ -1143,7 +1120,7 @@
             ]
           },
           {
-            "name": "Southern Ruins",
+            "name": "Southern Ruins Treasure Dungeon",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -1153,7 +1130,6 @@
             ],
             "sections": [
               {
-                "name": "Treasure Dungeon",
                 "access_rules": [
                   "{csmc, titansmitt}",
                   "{csmc, glitched, fsword, irod}",
@@ -1181,7 +1157,7 @@
         "name": "Lake Hylia",
         "children": [
           {
-            "name": "Lake Hylia",
+            "name": "Lake Hylia Merge Cliff Chest",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -1191,7 +1167,6 @@
             ],
             "sections": [
               {
-                "name": "Merge Cliff Chest",
                 "access_rules": [
                   "{csmc, flippers}",
                   "{csmc, wv_gales, bell}",
@@ -1202,7 +1177,7 @@
             ]
           },
           {
-            "name": "Lake Hylia",
+            "name": "Ice Rod Cave",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -1212,7 +1187,7 @@
             ],
             "sections": [
               {
-                "name": "Ice Rod Cave (Hidden)",
+                "name": "Bombable wall is hidden",
                 "access_rules": [
                   "{csmc, trod}",
                   "{csmc, irod}",
@@ -1223,7 +1198,7 @@
             ]
           },
           {
-            "name": "Lake Hylia",
+            "name": "Southeastern Shore",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -1233,7 +1208,6 @@
             ],
             "sections": [
               {
-                "name": "Southeastern Shore",
                 "access_rules": [
                   "flippers",
                   "[glitched], frod",
@@ -1245,7 +1219,7 @@
             ]
           },
           {
-            "name": "Lake Hylia",
+            "name": "Lake Hylia Dark Cave",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -1255,7 +1229,6 @@
             ],
             "sections": [
               {
-                "name": "Dark Cave",
                 "access_rules": [
                   "$fire"
                 ],

@@ -42,34 +42,6 @@
           {
             "type": "layout",
             "key": "layout_maps"
-          },
-          {
-            "type": "dock",
-            "margin": "0,0,2,0",
-            "content": [
-              {
-                "type": "scroll",
-                "dock": "bottom",
-                "height": 85,
-                "horizontal_scrollbar_visibility": "disabled",
-                "content": [
-                  {
-                    "type": "container",
-                    "h_alignment": "left",
-                    "content": {
-                      "type": "recentpins",
-                      "orientation": "horizontal",
-                      "compact": true,
-                      "style": "wrap"
-                    }
-                  }
-                ]
-              },
-              {
-                "type": "container",
-                "content": []
-              }
-            ]
           }
         ]
       }

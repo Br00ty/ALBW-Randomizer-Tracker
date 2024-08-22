@@ -12,6 +12,10 @@
     "always_allow_chest_manipulation": false,
     "sections": [
       {
+        "name": "Sign",
+        "hosted_item": "maiamai_sign"
+      },
+      {
         "name": "Bow",
         "clear_as_group": false,
         "access_rules": [
@@ -107,7 +111,7 @@
         "chest_unopened_img": "images/checks/chest_small_unopened.png",
         "chest_opened_img": "images/checks/chest_small_opened.png",
         "access_rules": [
-          "maiamai_100, maiamai_bow, maiamai_boomerang, maiamai_hookshot, maiamai_hammer, maiamai_bombs, maiamai_fire_rod, maiamai_ice_rod, maiamai_tornado_rod, maiamai_sand_rod"
+          "$has_amount|maiamai|100, maiamai_bow, maiamai_boomerang, maiamai_hookshot, maiamai_hammer, maiamai_bombs, maiamai_fire_rod, maiamai_ice_rod, maiamai_tornado_rod, maiamai_sand_rod"
         ],
         "item_count": 1
       }
@@ -120,7 +124,7 @@
     "children": [
       // Lost Woods Area - 8
       {
-        "name": "Fortune Teller",
+        "name": "Fortune Teller Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -145,7 +149,7 @@
         ]
       },
       {
-        "name": "Lost Woods",
+        "name": "Lost Woods Pond Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -170,7 +174,7 @@
         ]
       },
       {
-        "name": "Rosso's House",
+        "name": "Rosso's House Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -195,7 +199,7 @@
         ]
       },
       {
-        "name": "Lost Woods",
+        "name": "Lost Woods Rock Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -219,7 +223,7 @@
         ]
       },
       {
-        "name": "Lost Woods",
+        "name": "Lost Woods Tree Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -244,7 +248,7 @@
         ]
       },
       {
-        "name": "Lost Woods",
+        "name": "Lost Woods Bush Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -257,7 +261,6 @@
           {
             "name": "Under Bush",
             "item_count": 1,
-            //"capture_item": true,
             "visibility_rules": [
               "maiamai_map"
             ]
@@ -265,7 +268,7 @@
         ]
       },
       {
-        "name": "Lost Woods",
+        "name": "Lost Woods Path Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -276,7 +279,7 @@
         ],
         "sections": [
           {
-            "name": "Lost Woods Path Rock",
+            "name": "Under Rock on Path",
             "item_count": 1,
             //"capture_item": true,
             "visibility_rules": [
@@ -292,7 +295,7 @@
         ]
       },
       {
-        "name": "Moldorm Cave",
+        "name": "Moldorm Cave Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -318,7 +321,7 @@
       },
       // Sanctuary Area - 7
       {
-        "name": "Sanctuary",
+        "name": "Sanctuary Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -343,7 +346,7 @@
         ]
       },
       {
-        "name": "Witch's Hut",
+        "name": "Witch's Hut Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -368,7 +371,7 @@
         ]
       },
       {
-        "name": "Zora's Domain",
+        "name": "Zora Submerged Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -395,7 +398,7 @@
         ]
       },
       {
-        "name": "Zora's Domain",
+        "name": "Zora Wall Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -421,7 +424,7 @@
         ]
       },
       {
-        "name": "Zora's River",
+        "name": "Zora's River Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -450,7 +453,7 @@
         ]
       },
       {
-        "name": "Wooden Bridge",
+        "name": "Wooden Bridge Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -477,7 +480,7 @@
         ]
       },
       {
-        "name": "Graveyard Ledge",
+        "name": "Graveyard Ledge Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -493,8 +496,8 @@
             //"capture_item": true,
             "access_rules": [
               //"{}",
-              "merge, portal_graveyard",
-              "not_portal_shuffle, merge, quake, portal_graveyard_lorule"
+              "merge, crack_graveyard",
+              "not_cracksanity, merge, quake, crack_graveyard_lorule"
             ],
             "visibility_rules": [
               "maiamai_map"
@@ -504,7 +507,7 @@
       },
       // Kakariko Village - 5
       {
-        "name": "Kakariko Village",
+        "name": "Kakariko Bush Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -525,7 +528,7 @@
         ]
       },
       {
-        "name": "Kakariko Village",
+        "name": "Kakariko Sand Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -549,7 +552,7 @@
         ]
       },
       {
-        "name": "Cucco Ranch",
+        "name": "Cucco Ranch Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -573,7 +576,7 @@
         ]
       },
       {
-        "name": "Rupee Rush",
+        "name": "Rupee Rush Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -599,7 +602,7 @@
       },
       // Hyrule Castle Area - 8
       {
-        "name": "Hyrule Castle",
+        "name": "Hyrule Castle Tree Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -623,7 +626,7 @@
         ]
       },
       {
-        "name": "Hyrule Castle",
+        "name": "Hyrule Castle Wind Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -647,7 +650,7 @@
         ]
       },
       {
-        "name": "Link's House",
+        "name": "Link's Tree Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -671,7 +674,7 @@
         ]
       },
       {
-        "name": "Haunted Grove",
+        "name": "Haunted Grove Tree Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -696,7 +699,7 @@
         ]
       },
       {
-        "name": "Haunted Grove",
+        "name": "Haunted Grove Rock Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -720,7 +723,7 @@
         ]
       },
       {
-        "name": "Link's House",
+        "name": "Link's House Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -745,7 +748,7 @@
         ]
       },
       {
-        "name": "Hyrule Blacksmith",
+        "name": "Hyrule Blacksmith Wind Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -769,7 +772,7 @@
         ]
       },
       {
-        "name": "Hyrule Blacksmith",
+        "name": "Hyrule Blacksmith Tree Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -794,7 +797,7 @@
       },
       // Eastern Ruins - 6
       {
-        "name": "Eastern Ruins",
+        "name": "Eastern Ruins Dash Rock Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -819,7 +822,7 @@
         ]
       },
       {
-        "name": "Eastern Ruins",
+        "name": "Eastern Ruins River Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -846,7 +849,7 @@
         ]
       },
       {
-        "name": "Eastern Ruins",
+        "name": "Eastern Ruins Right Tree Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -870,7 +873,7 @@
         ]
       },
       {
-        "name": "Eastern Ruins",
+        "name": "Eastern Ruins Yellow Tree Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -895,7 +898,7 @@
         ]
       },
       {
-        "name": "Eastern Ruins",
+        "name": "Eastern Ruins Ledge Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -920,7 +923,7 @@
         ]
       },
       {
-        "name": "Eastern Ruins",
+        "name": "Eastern Ruins Big Rock Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -945,7 +948,7 @@
       },
       // Desert - 3
       {
-        "name": "Southern Ruins",
+        "name": "Southern Ruins Rock Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -969,7 +972,7 @@
         ]
       },
       {
-        "name": "Desert of Mystery",
+        "name": "Desert Buried Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -993,7 +996,7 @@
         ]
       },
       {
-        "name": "Desert of Mystery",
+        "name": "Desert Palace Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -1019,7 +1022,7 @@
       },
       // Southern Ruins - 3
       {
-        "name": "Southern Ruins",
+        "name": "Southern Ruins Pillars Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -1044,7 +1047,7 @@
         ]
       },
       {
-        "name": "Southern Ruins",
+        "name": "Southern Ruins Bomb Cave Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -1069,7 +1072,7 @@
         ]
       },
       {
-        "name": "Southern Ruins",
+        "name": "Southern Ruins Submerged Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -1095,7 +1098,7 @@
       },
       // Lake Hylia - 5
       {
-        "name": "Lake Hylia",
+        "name": "Close to Home Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -1120,7 +1123,7 @@
         ]
       },
       {
-        "name": "Lake Hylia",
+        "name": "House of Gales Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -1147,7 +1150,7 @@
         ]
       },
       {
-        "name": "Lake Hylia",
+        "name": "Lake Hylia Ring Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -1172,7 +1175,7 @@
         ]
       },
       {
-        "name": "Lake Hylia",
+        "name": "Lake Hylia River Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -1199,7 +1202,7 @@
         ]
       },
       {
-        "name": "Lake Hylia",
+        "name": "Lake Hylia Rock Maiamai",
         "map_locations": [
           {
             "map": "hyrule",
@@ -1482,7 +1485,7 @@
             ],
             "sections": [
               {
-                "name": "Stuck to Portal Wall",
+                "name": "Stuck to Crack Wall",
                 "item_count": 1,
                 "access_rules": [
                   "merge"
@@ -2236,7 +2239,7 @@
             ],
             "sections": [
               {
-                "name": "Under Portal Big Rock",
+                "name": "Under Crack Big Rock",
                 "item_count": 1,
                 //"capture_item": true,
                 "visibility_rules": [
@@ -2272,16 +2275,16 @@
                 "name": "Turtle Rock Area",
                 "item_count": 1,
                 "access_rules": [
-                  "not_portal_shuffle, quake",
-                  "portal_shuffle, portal_lake_lorule",
-                  "portal_shuffle, portal_river_lorule, flippers",
-                  "portal_shuffle, portal_lorule_hotfoot, flippers",
+                  "not_cracksanity, quake",
+                  "cracksanity, crack_lake_lorule",
+                  "cracksanity, crack_river_lorule, flippers",
+                  "cracksanity, crack_lorule_hotfoot, flippers",
                   "$warpLorule, bell, wv_turtle, flippers",
                   "[glitched], $glitched_access_dark_ruins, $boost, flippers",
                   "[advanced], $advanced_access_dark_ruins, $fakeFlippers",
                   "[hell], $hell_access_dark_ruins, $beeFakeFlippers",
-                  "[advanced], portal_shuffle, portal_lorule_hotfoot, $fakeFlippers",
-                  "[hell], portal_shuffle, portal_lorule_hotfoot, $beeFakeFlippers"
+                  "[advanced], cracksanity, crack_lorule_hotfoot, $fakeFlippers",
+                  "[hell], cracksanity, crack_lorule_hotfoot, $beeFakeFlippers"
                 ],
                 //"capture_item": true,
                 "visibility_rules": [
@@ -2309,17 +2312,17 @@
                   "maiamai_map"
                 ],
                 "access_rules": [
-                  "titansmitt, not_portal_shuffle, quake",
-                  "titansmitt, portal_shuffle, portal_lake_lorule",
-                  "titansmitt, portal_shuffle, portal_river_lorule, flippers",
-                  "titansmitt, portal_shuffle, portal_lorule_hotfoot, flippers",
+                  "titansmitt, not_cracksanity, quake",
+                  "titansmitt, cracksanity, crack_lake_lorule",
+                  "titansmitt, cracksanity, crack_river_lorule, flippers",
+                  "titansmitt, cracksanity, crack_lorule_hotfoot, flippers",
                   "titansmitt, $warpLorule, bell, wv_turtle, flippers",
                   "titansmitt, [glitched], $glitched_access_dark_ruins, $boost, flippers",
                   "titansmitt, [advanced], $advanced_access_dark_ruins, $fakeFlippers",
                   "titansmitt, [hell], $hell_access_dark_ruins, $beeFakeFlippers",
-                  "titansmitt, [advanced], portal_shuffle, portal_lorule_hotfoot, $fakeFlippers",
+                  "titansmitt, [advanced], cracksanity, crack_lorule_hotfoot, $fakeFlippers",
                   "titansmitt, [hell], $hell_access_dark_ruins, $beeBoost, scroll",
-                  "titansmitt, [hell], portal_shuffle, portal_lorule_hotfoot"
+                  "titansmitt, [hell], cracksanity, crack_lorule_hotfoot"
                 ]
               }
             ]
@@ -2339,10 +2342,10 @@
                 "name": "Turtle Rock Area",
                 "item_count": 1,
                 "access_rules": [
-                  "not_portal_shuffle, quake",
-                  "portal_shuffle, portal_lake_lorule, flippers",
-                  "portal_shuffle, portal_river_lorule, flippers",
-                  "portal_shuffle, portal_lorule_hotfoot",
+                  "not_cracksanity, quake",
+                  "cracksanity, crack_lake_lorule, flippers",
+                  "cracksanity, crack_river_lorule, flippers",
+                  "cracksanity, crack_lorule_hotfoot",
                   "$warpLorule, bell, wv_turtle, flippers",
                   "[glitched], $glitched_access_dark_ruins, $boost, flippers",
                   "[glitched], $glitched_access_dark_ruins, $boost, scroll",
@@ -2372,10 +2375,10 @@
                 "name": "Turtle Rock Area",
                 "item_count": 1,
                 "access_rules": [
-                  "not_portal_shuffle, quake",
-                  "portal_shuffle, portal_lake_lorule, flippers",
-                  "portal_shuffle, portal_river_lorule, flippers",
-                  "portal_shuffle, portal_lorule_hotfoot",
+                  "not_cracksanity, quake",
+                  "cracksanity, crack_lake_lorule, flippers",
+                  "cracksanity, crack_river_lorule, flippers",
+                  "cracksanity, crack_lorule_hotfoot",
                   "$warpLorule, bell, wv_turtle, flippers",
                   "[glitched], $glitched_access_dark_ruins, $boost, flippers",
                   "[glitched], $glitched_access_dark_ruins, $boost, scroll",
@@ -2410,12 +2413,12 @@
                 ],
                 "access_rules": [
                   //"{}",
-                  "not_portal_shuffle, quake, flippers",
-                  "portal_shuffle, portal_lake_lorule, flippers",
-                  "portal_shuffle, portal_river_lorule, flippers",
-                  "portal_shuffle, portal_lorule_hotfoot, flippers",
-                  "[advanced], portal_shuffle, portal_lorule_hotfoot, $fakeFlippers",
-                  "[hell], portal_shuffle, portal_lorule_hotfoot, $beeFakeFlippers",
+                  "not_cracksanity, quake, flippers",
+                  "cracksanity, crack_lake_lorule, flippers",
+                  "cracksanity, crack_river_lorule, flippers",
+                  "cracksanity, crack_lorule_hotfoot, flippers",
+                  "[advanced], cracksanity, crack_lorule_hotfoot, $fakeFlippers",
+                  "[hell], cracksanity, crack_lorule_hotfoot, $beeFakeFlippers",
                   "$warpLorule, bell, wv_turtle, flippers",
                   "[glitched], $glitched_access_dark_ruins, $boost, flippers",
                   "[advanced], $advanced_access_dark_ruins, $fakeFlippers",

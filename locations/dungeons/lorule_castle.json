@@ -388,7 +388,7 @@
     ]
   },
   {
-    "name": "Throne Room ",
+    "name": "Lorule Castle Crack",
     "map_locations": [
       {
         "map": "lorule",
@@ -399,15 +399,15 @@
     ],
     "sections": [
       {
-        "name": "Lorule Castle Portal",
-        "hosted_item": "portal_lc",
+        "name": "Lorule Castle",
+        "hosted_item": "crack_lc",
         "access_rules": [
-          "portal_lc",
-          "{}",
+          "crack_lc",
+          "{$inspect_crack_lorule}",
           "merge, quake, $lc_trials"
         ],
         "visibility_rules": [
-          "portal_shuffle"
+          "cracksanity"
         ]
       }
     ]

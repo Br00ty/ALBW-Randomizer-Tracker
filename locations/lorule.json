@@ -142,7 +142,7 @@
                 "chest_unopened_img": "images/checks/chest_big_unopened.png",
                 "chest_opened_img": "images/checks/chest_big_opened.png",
                 "access_rules": [
-                  "{$access_lorule_graveyard}",
+                  "{csmc, $access_lorule_graveyard}",
                   "$access_lorule_graveyard, titansmitt, [lamp], $attack",
                   "$access_lorule_graveyard, titansmitt, [lampless], $attack",
                   "$lampless_access_lorule_graveyard, titansmitt, [lampless], $attack"
@@ -189,7 +189,7 @@
             "item_count": 6,
             "access_rules": [
               "merge, $access_dark_ruins",
-              "merge, portal_shuffle, portal_waterfall_lorule",
+              "merge, cracksanity, crack_waterfall_lorule",
               "[glitched], merge, $glitched_access_dark_ruins",
               "[advanced], merge, $advanced_access_dark_ruins",
               "[hell], merge, $hell_access_dark_ruins"
@@ -221,12 +221,12 @@
                 "access_rules": [
                   "merge, bow",
                   "merge, bombs",
-                  "merge, fsword, flippers",
-                  "merge, fsword, great_spin",
+                  "merge, fsword",
                   "merge, niceirod",
+                  "merge, nicetrod",
                   "merge, nicehookshot",
-                  "[hard], merge, fsword, power_glove",
-                  "[hard], merge, msword"
+                  "[hard], merge, power_glove, lamp",
+                  "[hard], merge, power_glove, net"
                 ],
                 "item_count": 1
               }
@@ -441,8 +441,8 @@
                 "name": "Hookshot Chest",
                 "access_rules": [
                   "{csmc}",
-                  "not_portal_shuffle, quake, merge, hookshot",
-                  "portal_shuffle, portal_right_lorule_paradox, merge, hookshot"
+                  "not_cracksanity, quake, merge, hookshot",
+                  "cracksanity, crack_right_lorule_paradox, merge, hookshot"
                 ],
                 "item_count": 1
               }
@@ -552,31 +552,6 @@
         ]
       },
       {
-        "name": "Desert",
-        "map_locations": [
-          {
-            "map": "hyrule",
-            "x": 292,
-            "y": 1560,
-            "badge_size": 40
-          }
-        ],
-        "sections": [
-          {
-            "name": "Desert North Portal",
-            "hosted_item": "portal_desert_north",
-            "access_rules": [
-              "portal_desert_north",
-              "{portal_shuffle}",
-              "$access_desert, merge, bombs, srod",
-              "$access_desert, merge, bombs, scroll",
-              "[advanced], $access_desert, merge, bombs, $boost",
-              "[hell], $access_desert, merge, bombs"
-            ]
-          }
-        ]
-      },
-      {
         "name": "Misery Mire North",
         "map_locations": [
           {
@@ -588,14 +563,14 @@
         ],
         "sections": [
           {
-            "name": "Misery Mire North Portal",
-            "hosted_item": "portal_mire_north",
+            "name": "Misery Mire North Crack",
+            "hosted_item": "crack_mire_north",
             "access_rules": [
-              "portal_mire_north",
-              "{}"
+              "crack_mire_north",
+              "{$inspect_crack_lorule}"
             ],
             "visibility_rules": [
-              "portal_shuffle"
+              "cracksanity"
             ]
           },
           {
@@ -603,8 +578,8 @@
             //"capture_item": true,
             "access_rules": [
               //"{}",
-              "merge, portal_mire_north",
-              "not_portal_shuffle, merge, quake, portal_desert_north",
+              "merge, crack_mire_north",
+              "not_cracksanity, merge, quake, crack_desert_north",
               "[advanced], $access_misery_mire, frod, boots"
             ],
             "item_count": 1
@@ -627,15 +602,15 @@
               {
                 "name": "Turtle Rock Area",
                 "access_rules": [
-                  "not_portal_shuffle, merge, quake",
-                  "portal_shuffle, portal_lake_lorule, merge",
-                  "portal_shuffle, portal_river_lorule, flippers",
-                  "portal_shuffle, portal_lorule_hotfoot, flippers",
+                  "not_cracksanity, merge, quake",
+                  "cracksanity, crack_lake_lorule, merge",
+                  "cracksanity, crack_river_lorule, flippers",
+                  "cracksanity, crack_lorule_hotfoot, flippers",
                   "[glitched], $glitched_access_dark_ruins, $boost, flippers",
                   "[advanced], $advanced_access_dark_ruins, $boost, flippers",
                   "[hell], $hell_access_dark_ruins, $beeFakeFlippers",
-                  "[advanced], portal_shuffle, portal_lorule_hotfoot, $fakeFlippers",
-                  "[hell], portal_shuffle, portal_lorule_hotfoot, $beeFakeFlippers"
+                  "[advanced], cracksanity, crack_lorule_hotfoot, $fakeFlippers",
+                  "[hell], cracksanity, crack_lorule_hotfoot, $beeFakeFlippers"
                 ],
                 "item_count": 1
               }

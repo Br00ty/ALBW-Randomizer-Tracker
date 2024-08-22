@@ -24,69 +24,79 @@ LoruleWeatherVanes = {
     "@Weather Vane 21/Turtle Rock",
     "@Weather Vane 22/Death Mountain (Lorule)"
 }
-Portals = {
-    "@Your House/Portal",
-    "@Lost Woods Pillar Portal/",
-    "@Rosso's House/Rosso's House Portal",
-    "@Death Mountain West Portal/",
-    "@Floating Island/Floating Island Portal",
-    "@Rosso's Ore Mine Portal/",
-    "@Sanctuary /Sanctuary Portal",
-    "@Graveyard Ledge/Graveyard Portal",
-    "@Waterfall Portal/",
-    "@Zora's Domain Portal/",
-    "@Sahasrahla's House Portal/",
-    "@Stylish Woman's House/Stylish Woman Portal",
-    "@Eastern Pillar Portal/",
-    "@Eastern Ruins SE Portal/",
-    "@River Portal/",
-    "@Swamp Pillar Portal/",
-    "@Lake Hylia Portal/",
-    "@Hyrule Hotfoot Portal/",
-    "@Paradox Hyrule Left Portal/",
-    "@Paradox Hyrule Right Portal/",
-    "@Misery Mire Entrance Portal/",
-    "@Desert/Desert North Portal",
-    "@Desert Pillar Left Portal/",
-    "@Desert Pillar Right Portal/",
-    "@Desert Middle Portal/",
-    "@Desert SW Portal/",
-    "@Desert Palace Ledge/Desert Palace Portal",
-    "@Inside Hyrule Castle/Hyrule Castle Portal",
-
-
-    "@Vacant House Portal/",
-    "@Skull Woods Pillar Portal/",
-    "@Destroyed House Portal/",
-    "@Lorule Death Mountain West Portal/",
-    "@Lorule Floating Island/Lorule Floating Island Portal",
-    "@Lorule Rosso's Ore Mine Portal/",
-    "@Philosopher's Portal/Graveyard",
-    "@Lorule Graveyard/Lorule Graveyard Portal",
-
-    "@Lorule Waterfall Portal/Dark Ruins",
-    "@Ku's Domain Portal/Dark Ruins",
-    "@Dark Pillar Portal/Dark Ruins",
-    "@Dark Ruins SE Portal/Dark Ruins",
-
-    "@Lorule Lake Portal/Turtle Rock Area",
-    "@Lorule River Portal/Turtle Rock Area",
-    "@Lorule Hotfoot Portal/Turtle Rock Area",
-
-
-    "@n-Shaped House Portal/",
-    "@Thieves' Town /Thieves' Town Portal",
-    "@Lorule Swamp Pillar Portal/",
-    "@Paradox Lorule Left Portal/",
-    "@Paradox Lorule Right Portal/",
-    "@Misery Mire Exit Portal/",
-    "@Misery Mire North/Misery Mire North Portal",
-    "@Misery Mire Pillar Left Portal/",
-    "@Misery Mire Pillar Right Portal/",
-    "@Misery Mire Middle Portal/",
-    "@Misery Mire SW Portal/",
-    "@Misery Mire /Zaganaga Portal",
-    "@Throne Room /Lorule Castle Portal"
+Cracks = {
+-----------------------------------------------------------
+    "@Your House/Crack",
+    "@Swamp Pillar Crack/",
+    "@Paradox Hyrule Left Crack/",
+    "@Paradox Hyrule Right Crack/",
+    "@Stylish Woman's House/Stylish Woman Crack",
+    "@Hyrule Castle Crack/Inside Hyrule Castle",
+-----------------------------------------------------------
+    "@Lost Woods Pillar Crack/",
+    "@Rosso's House/Rosso's House Crack",
+    "@Sahasrahla's House Crack/",
+-----------------------------------------------------------
+    "@Death Mountain West Crack/",
+    "@Floating Island/Floating Island Crack",
+    "@Rosso's Ore Mine Crack/Death Mountain",
+-----------------------------------------------------------
+    "@Sanctuary /Sanctuary Crack",
+    "@Graveyard Ledge/Graveyard Crack",
+-----------------------------------------------------------
+    "@Waterfall Crack/",
+    "@Zora's Domain Crack/",
+    "@Eastern Pillar Crack/",
+    "@Eastern Ruins SE Crack/",
+-----------------------------------------------------------
+    "@Lake Hylia Crack/",
+    "@River Crack/",
+    "@Hyrule Hotfoot Crack/",
+-----------------------------------------------------------
+    "@Misery Mire Entrance Crack/",
+    "@Desert/Desert North Crack",
+    "@Desert Pillar Left Crack/",
+    "@Desert Pillar Right Crack/",
+    "@Desert Middle Crack/",
+    "@Desert SW Crack/",
+    "@Desert Palace Ledge/Desert Palace Crack",
+-----------------------------------------------------------
+-----------------------------------------------------------
+-----------------------------------------------------------
+    "@Vacant House Crack/",
+    "@Thieves' Town /Thieves' Town Crack",
+    "@Lorule Swamp Pillar Crack/",
+    "@Paradox Lorule Left Crack/",
+    "@Paradox Lorule Right Crack/",
+    "@Lorule Castle Crack/Lorule Castle",
+-----------------------------------------------------------
+    "@Skull Woods Pillar Crack/",
+    "@Destroyed House Crack/",
+    "@n-Shaped House Crack/",
+-----------------------------------------------------------
+    "@Lorule Death Mountain West Crack/",
+    "@Lorule Floating Island/Lorule Floating Island Crack",
+    "@Lorule Rosso's Ore Mine Crack/Lorule Death Mountain",
+-----------------------------------------------------------
+    "@Philosopher's Cave Crack/Graveyard",
+    "@Lorule Graveyard/Lorule Graveyard Crack",
+-----------------------------------------------------------
+    "@Lorule Waterfall Crack/Dark Ruins",
+    "@Ku's Domain Crack/Dark Ruins",
+    "@Dark Pillar Crack/Dark Ruins",
+    "@Dark Ruins SE Crack/Dark Ruins",
+-----------------------------------------------------------
+    "@Lorule Lake Crack/Turtle Rock Area",
+    "@Lorule River Crack/Turtle Rock Area",
+    "@Lorule Hotfoot Crack/Turtle Rock Area",
+-----------------------------------------------------------
+    "@Misery Mire Exit Crack/",
+    "@Misery Mire North/Misery Mire North Crack",
+    "@Misery Mire Pillar Left Crack/",
+    "@Misery Mire Pillar Right Crack/",
+    "@Misery Mire Middle Crack/",
+    "@Misery Mire SW Crack/",
+    "@Misery Mire /Zaganaga Crack"
 }
 
 -- Adds static badge to location
@@ -107,4 +117,4 @@ end
 
 add_static_badges("images/badges/wv_hyrule.png", HyruleWeatherVanes)
 add_static_badges("images/badges/wv_lorule.png", LoruleWeatherVanes)
-add_static_badges("images/badges/SlitS.png", Portals)
+add_static_badges("images/badges/SlitS.png", Cracks)

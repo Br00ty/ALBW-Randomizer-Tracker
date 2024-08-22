@@ -3,13 +3,13 @@
     "name": "hyrule",
 //    "location_size": 70,
 //    "location_border_thickness": 10,
-    "img": "images/maps/map_blank.png"
+    "img": "images/maps/hyrule.png"
   },
   {
     "name": "lorule",
 //    "location_size": 70,
 //    "location_border_thickness": 10,
-    "img": "images/maps/map_blank.png"
+    "img": "images/maps/lorule.png"
   },
   {
     "name": "ep1F",
