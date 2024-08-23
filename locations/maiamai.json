@@ -4,9 +4,9 @@
     "map_locations": [
       {
         "map": "hyrule",
-        "x": 1467,
-        "y": 1542,
-        "size": 64
+        "x": 1471,
+        "y": 1546,
+        "size": 48
       }
     ],
     "always_allow_chest_manipulation": false,
@@ -124,13 +124,13 @@
     "children": [
       // Lost Woods Area - 8
       {
-        "name": "Fortune Teller Maiamai",
+        "name": "[Mai] Fortune-Teller Tent",
         "map_locations": [
           {
             "map": "hyrule",
             "x": 410,
             "y": 672,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -149,18 +149,18 @@
         ]
       },
       {
-        "name": "Lost Woods Pond Maiamai",
+        "name": "[Mai] Small Pond",
         "map_locations": [
           {
             "map": "hyrule",
             "x": 625,
             "y": 704,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
           {
-            "name": "Small Pond",
+            //"name": "Small Pond",
             "item_count": 1,
             //"capture_item": true,
             "visibility_rules": [
@@ -174,13 +174,13 @@
         ]
       },
       {
-        "name": "Rosso's House Maiamai",
+        "name": "[Mai] Rosso Wall",
         "map_locations": [
           {
             "map": "hyrule",
             "x": 711,
             "y": 255,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -199,13 +199,13 @@
         ]
       },
       {
-        "name": "Lost Woods Rock Maiamai",
+        "name": "[Mai] Lost Woods Path Rock",
         "map_locations": [
           {
             "map": "hyrule",
             "x": 350,
             "y": 183,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -223,13 +223,13 @@
         ]
       },
       {
-        "name": "Lost Woods Tree Maiamai",
+        "name": "[Mai] Lost Woods Tree",
         "map_locations": [
           {
             "map": "hyrule",
             "x": 320,
             "y": 352,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -254,7 +254,7 @@
             "map": "hyrule",
             "x": 98,
             "y": 189,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -274,7 +274,7 @@
             "map": "hyrule",
             "x": 226,
             "y": 710,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -301,7 +301,7 @@
             "map": "hyrule",
             "x": 730,
             "y": 333,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -321,13 +321,13 @@
       },
       // Sanctuary Area - 7
       {
-        "name": "Sanctuary Maiamai",
+        "name": "[Mai] Sanctuary Wall",
         "map_locations": [
           {
             "map": "hyrule",
             "x": 859,
             "y": 696,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -352,7 +352,7 @@
             "map": "hyrule",
             "x": 1600,
             "y": 677,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -377,7 +377,7 @@
             "map": "hyrule",
             "x": 1789,
             "y": 396,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -404,7 +404,7 @@
             "map": "hyrule",
             "x": 1889,
             "y": 764,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -430,7 +430,7 @@
             "map": "hyrule",
             "x": 1475,
             "y": 559,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -453,13 +453,13 @@
         ]
       },
       {
-        "name": "Wooden Bridge Maiamai",
+        "name": "[Mai] Wooden Bridge",
         "map_locations": [
           {
             "map": "hyrule",
             "x": 1407,
             "y": 910,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -486,7 +486,7 @@
             "map": "hyrule",
             "x": 1112,
             "y": 579,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -507,13 +507,13 @@
       },
       // Kakariko Village - 5
       {
-        "name": "Kakariko Bush Maiamai",
+        "name": "[Mai] Kakariko Bush",
         "map_locations": [
           {
             "map": "hyrule",
             "x": 514,
             "y": 949,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -534,7 +534,7 @@
             "map": "hyrule",
             "x": 210,
             "y": 1186,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -552,13 +552,13 @@
         ]
       },
       {
-        "name": "Cucco Ranch Maiamai",
+        "name": "[Mai] Cucco Ranch Tree",
         "map_locations": [
           {
             "map": "hyrule",
             "x": 450,
             "y": 1362,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -576,13 +576,13 @@
         ]
       },
       {
-        "name": "Rupee Rush Maiamai",
+        "name": "[Mai] Hyrule Rupee Rush Wall",
         "map_locations": [
           {
             "map": "hyrule",
             "x": 135,
             "y": 1480,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -602,13 +602,13 @@
       },
       // Hyrule Castle Area - 8
       {
-        "name": "Hyrule Castle Tree Maiamai",
+        "name": "[Mai] Hyrule Castle Tree",
         "map_locations": [
           {
             "map": "hyrule",
             "x": 845,
             "y": 839,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -626,13 +626,13 @@
         ]
       },
       {
-        "name": "Hyrule Castle Wind Maiamai",
+        "name": "[Mai] Hyrule Castle Tiles",
         "map_locations": [
           {
             "map": "hyrule",
             "x": 849,
             "y": 1236,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -650,13 +650,13 @@
         ]
       },
       {
-        "name": "Link's Tree Maiamai",
+        "name": "[Mai] Your House Tree",
         "map_locations": [
           {
             "map": "hyrule",
             "x": 907,
             "y": 1335,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -674,13 +674,13 @@
         ]
       },
       {
-        "name": "Haunted Grove Tree Maiamai",
+        "name": "[Mai] Haunted Grove Tree",
         "map_locations": [
           {
             "map": "hyrule",
             "x": 660,
             "y": 1285,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -705,7 +705,7 @@
             "map": "hyrule",
             "x": 590,
             "y": 1690,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -723,13 +723,13 @@
         ]
       },
       {
-        "name": "Link's House Maiamai",
+        "name": "[Mai] Behind Your House",
         "map_locations": [
           {
             "map": "hyrule",
             "x": 1081,
             "y": 1353,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -748,13 +748,13 @@
         ]
       },
       {
-        "name": "Hyrule Blacksmith Wind Maiamai",
+        "name": "[Mai] Blacksmith Tiles",
         "map_locations": [
           {
             "map": "hyrule",
             "x": 589,
             "y": 1082,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -772,13 +772,13 @@
         ]
       },
       {
-        "name": "Hyrule Blacksmith Tree Maiamai",
+        "name": "[Mai] Blacksmith Tree",
         "map_locations": [
           {
             "map": "hyrule",
             "x": 640,
             "y": 919,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -797,13 +797,13 @@
       },
       // Eastern Ruins - 6
       {
-        "name": "Eastern Ruins Dash Rock Maiamai",
+        "name": "[Mai] Eastern Ruins Bonk Rocks",
         "map_locations": [
           {
             "map": "hyrule",
             "x": 1471,
             "y": 1174,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -822,13 +822,13 @@
         ]
       },
       {
-        "name": "Eastern Ruins River Maiamai",
+        "name": "[Mai] Eastern Ruins River",
         "map_locations": [
           {
             "map": "hyrule",
             "x": 1473,
             "y": 1421,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -849,13 +849,13 @@
         ]
       },
       {
-        "name": "Eastern Ruins Right Tree Maiamai",
+        "name": "[Mai] Eastern Ruins Green Tree",
         "map_locations": [
           {
             "map": "hyrule",
             "x": 1702,
             "y": 1368,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -873,13 +873,13 @@
         ]
       },
       {
-        "name": "Eastern Ruins Yellow Tree Maiamai",
+        "name": "[Mai] Eastern Ruins Yellow Tree",
         "map_locations": [
           {
             "map": "hyrule",
             "x": 1782,
             "y": 1201,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -898,13 +898,13 @@
         ]
       },
       {
-        "name": "Eastern Ruins Ledge Maiamai",
+        "name": "[Mai] Eastern Ruins Wall",
         "map_locations": [
           {
             "map": "hyrule",
             "x": 1708,
             "y": 1001,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -923,13 +923,13 @@
         ]
       },
       {
-        "name": "Eastern Ruins Big Rock Maiamai",
+        "name": "[Mai] Eastern Ruins Rock",
         "map_locations": [
           {
             "map": "hyrule",
             "x": 1908,
             "y": 1478,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -948,13 +948,13 @@
       },
       // Desert - 3
       {
-        "name": "Southern Ruins Rock Maiamai",
+        "name": "[Mai] Southern Ruins Big Rock",
         "map_locations": [
           {
             "map": "hyrule",
             "x": 660,
             "y": 1915,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -978,7 +978,7 @@
             "map": "hyrule",
             "x": 323,
             "y": 1679,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -1002,7 +1002,7 @@
             "map": "hyrule",
             "x": 186,
             "y": 1802,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -1022,13 +1022,13 @@
       },
       // Southern Ruins - 3
       {
-        "name": "Southern Ruins Pillars Maiamai",
+        "name": "[Mai] Southern Ruins Pillars",
         "map_locations": [
           {
             "map": "hyrule",
             "x": 1132,
             "y": 1665,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -1053,7 +1053,7 @@
             "map": "hyrule",
             "x": 1200,
             "y": 1844,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -1072,13 +1072,13 @@
         ]
       },
       {
-        "name": "Southern Ruins Submerged Maiamai",
+        "name": "[Mai] Outside Flippers Mini-Dungeon",
         "map_locations": [
           {
             "map": "hyrule",
             "x": 994,
             "y": 1881,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -1098,13 +1098,13 @@
       },
       // Lake Hylia - 5
       {
-        "name": "Close to Home Maiamai",
+        "name": "[Mai] Outside Maiamai Cave",
         "map_locations": [
           {
             "map": "hyrule",
-            "x": 1451,
-            "y": 1526,
-            "size": 48
+            "x": 1443,
+            "y": 1500,
+            "size": 35
           }
         ],
         "sections": [
@@ -1123,13 +1123,13 @@
         ]
       },
       {
-        "name": "House of Gales Maiamai",
+        "name": "[Mai] Lake Hylia Island Tile",
         "map_locations": [
           {
             "map": "hyrule",
             "x": 1644,
             "y": 1685,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -1150,13 +1150,13 @@
         ]
       },
       {
-        "name": "Lake Hylia Ring Maiamai",
+        "name": "[Mai] Lake Hylia Shallow Ring",
         "map_locations": [
           {
             "map": "hyrule",
             "x": 1591,
             "y": 1844,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -1175,13 +1175,13 @@
         ]
       },
       {
-        "name": "Lake Hylia River Maiamai",
+        "name": "[Mai] Lake Hylia East River",
         "map_locations": [
           {
             "map": "hyrule",
             "x": 1824,
             "y": 1837,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -1202,13 +1202,13 @@
         ]
       },
       {
-        "name": "Lake Hylia Rock Maiamai",
+        "name": "[Mai] Hyrule Hotfoot Rock",
         "map_locations": [
           {
             "map": "hyrule",
             "x": 1963,
             "y": 1687,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -1229,8 +1229,8 @@
   },
   {
     "name": "Lorule Maiamai",
-    "chest_unopened_img": "images/checks/chest_small_unopened.png",
-    "chest_opened_img": "images/checks/chest_small_opened.png",
+    "chest_unopened_img": "images/items/maiamai.png",
+    "chest_opened_img": "images/items/maiamai_opened.png",
     "children": [
       {
         // Skull Woods - 8
@@ -1246,7 +1246,7 @@
                 "map": "lorule",
                 "x": 289,
                 "y": 856,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -1271,7 +1271,7 @@
                 "map": "lorule",
                 "x": 353,
                 "y": 752,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -1295,7 +1295,7 @@
                 "map": "lorule",
                 "x": 679,
                 "y": 702,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -1319,7 +1319,7 @@
                 "map": "lorule",
                 "x": 650,
                 "y": 472,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -1340,7 +1340,7 @@
                 "map": "lorule",
                 "x": 657,
                 "y": 231,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -1364,7 +1364,7 @@
                 "map": "lorule",
                 "x": 117,
                 "y": 111,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -1398,7 +1398,7 @@
                 "map": "lorule",
                 "x": 204,
                 "y": 395,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -1422,7 +1422,7 @@
                 "map": "lorule",
                 "x": 203,
                 "y": 733,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -1444,6 +1444,8 @@
       // Graveyard - 3
       {
         "name": "Lorule Graveyard",
+        "chest_unopened_img": "images/items/maiamai.png",
+        "chest_opened_img": "images/items/maiamai_opened.png",
         "access_rules": [
           "$access_lorule_graveyard",
           "[lampless], $lampless_access_lorule_graveyard"
@@ -1456,7 +1458,7 @@
                 "map": "lorule",
                 "x": 895,
                 "y": 614,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -1480,7 +1482,7 @@
                 "map": "lorule",
                 "x": 1100,
                 "y": 589,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -1504,7 +1506,7 @@
                 "map": "lorule",
                 "x": 1356,
                 "y": 836,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -1526,6 +1528,8 @@
       // Dark Ruins - 10
       {
         "name": "Dark Ruins",
+        "chest_unopened_img": "images/items/maiamai.png",
+        "chest_opened_img": "images/items/maiamai_opened.png",
         "access_rules": [
           "$access_dark_ruins",
           "[glitched], $glitched_access_dark_ruins",
@@ -1540,7 +1544,7 @@
                 "map": "lorule",
                 "x": 1438,
                 "y": 1142,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -1565,7 +1569,7 @@
                 "map": "lorule",
                 "x": 1426,
                 "y": 575,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -1592,7 +1596,7 @@
                 "map": "lorule",
                 "x": 1720,
                 "y": 588,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -1618,7 +1622,7 @@
                 "map": "lorule",
                 "x": 1860,
                 "y": 749,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -1642,7 +1646,7 @@
                 "map": "lorule",
                 "x": 1785,
                 "y": 444,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -1667,7 +1671,7 @@
                 "map": "lorule",
                 "x": 1353,
                 "y": 1333,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -1691,7 +1695,7 @@
                 "map": "lorule",
                 "x": 1581,
                 "y": 1335,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -1715,7 +1719,7 @@
                 "map": "lorule",
                 "x": 1575,
                 "y": 1185,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -1739,7 +1743,7 @@
                 "map": "lorule",
                 "x": 1927,
                 "y": 1487,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -1763,7 +1767,7 @@
                 "map": "lorule",
                 "x": 1834,
                 "y": 914,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -1785,6 +1789,8 @@
       // Lorule Castle Area - 15
       {
         "name": "Central Lorule",
+        "chest_unopened_img": "images/items/maiamai.png",
+        "chest_opened_img": "images/items/maiamai_opened.png",
         "access_rules": [
           "$access_central_lorule",
           "[advanced], advanced_access_central_lorule",
@@ -1798,7 +1804,7 @@
                 "map": "lorule",
                 "x": 614,
                 "y": 1065,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -1823,7 +1829,7 @@
                 "map": "lorule",
                 "x": 600,
                 "y": 946,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -1847,7 +1853,7 @@
                 "map": "lorule",
                 "x": 466,
                 "y": 1172,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -1871,7 +1877,7 @@
                 "map": "lorule",
                 "x": 120,
                 "y": 1205,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -1890,13 +1896,13 @@
             ]
           },
           {
-            "name": "Bomb Flower Field",
+            "name": "[Mai] Big Bomb Flower Grass",
             "map_locations": [
               {
                 "map": "lorule",
                 "x": 455,
                 "y": 1345,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -1917,7 +1923,7 @@
                 "map": "lorule",
                 "x": 114,
                 "y": 1288,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -1942,7 +1948,7 @@
                 "map": "lorule",
                 "x": 603,
                 "y": 1456,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -1978,7 +1984,7 @@
                 "map": "lorule",
                 "x": 543,
                 "y": 1695,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -2003,7 +2009,7 @@
                 "map": "lorule",
                 "x": 903,
                 "y": 1411,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -2027,7 +2033,7 @@
                 "map": "lorule",
                 "x": 1065,
                 "y": 1326,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -2052,7 +2058,7 @@
                 "map": "lorule",
                 "x": 1098,
                 "y": 1092,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -2077,7 +2083,7 @@
                 "map": "lorule",
                 "x": 1208,
                 "y": 1214,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -2101,7 +2107,7 @@
                 "map": "lorule",
                 "x": 1215,
                 "y": 1573,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -2126,7 +2132,7 @@
                 "map": "lorule",
                 "x": 952,
                 "y": 1650,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -2151,7 +2157,7 @@
                 "map": "lorule",
                 "x": 1139,
                 "y": 1789,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -2174,6 +2180,8 @@
       // Misery Mire - 3
       {
         "name": "Misery Mire",
+        "chest_unopened_img": "images/items/maiamai.png",
+        "chest_opened_img": "images/items/maiamai_opened.png",
         "access_rules": [
           "$access_misery_mire"
         ],
@@ -2185,7 +2193,7 @@
                 "map": "lorule",
                 "x": 460,
                 "y": 1800,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -2209,7 +2217,7 @@
                 "map": "lorule",
                 "x": 134,
                 "y": 1902,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -2234,7 +2242,7 @@
                 "map": "lorule",
                 "x": 658,
                 "y": 1923,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -2256,6 +2264,8 @@
       // Lorule Lake - 5
       {
         "name": "Lorule Lake",
+        "chest_unopened_img": "images/items/maiamai.png",
+        "chest_opened_img": "images/items/maiamai_opened.png",
         "access_rules": [
           "merge"
         ],
@@ -2267,7 +2277,7 @@
                 "map": "lorule",
                 "x": 1344,
                 "y": 1790,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -2294,13 +2304,13 @@
             ]
           },
           {
-            "name": "Under SW Big Rock",
+            "name": "[Mai] Lorule Lake Rock",
             "map_locations": [
               {
                 "map": "lorule",
                 "x": 1351,
                 "y": 1950,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -2334,7 +2344,7 @@
                 "map": "lorule",
                 "x": 1906,
                 "y": 1971,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -2367,7 +2377,7 @@
                 "map": "lorule",
                 "x": 1773,
                 "y": 1616,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [
@@ -2400,7 +2410,7 @@
                 "map": "lorule",
                 "x": 1675,
                 "y": 1698,
-                "size": 48
+                "size": 35
               }
             ],
             "sections": [

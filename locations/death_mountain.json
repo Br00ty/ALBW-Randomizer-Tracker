@@ -5,7 +5,7 @@
     "chest_opened_img": "images/checks/chest_small_opened.png",
     "children": [
       {
-        "name": "Death Mountain",
+        "name": "Death Mountain Blocked Cave",
         "map_locations": [
           {
             "map": "hyrule",
@@ -29,7 +29,7 @@
         ]
       },
       {
-        "name": "Death Mountain",
+        "name": "Death Mountain Fairy Cave",
         "map_locations": [
           {
             "map": "hyrule",
@@ -207,7 +207,7 @@
         ]
       },
       {
-        "name": "Death Mountain",
+        "name": "Death Mountain West Highest Cave",
         "map_locations": [
           {
             "map": "hyrule",

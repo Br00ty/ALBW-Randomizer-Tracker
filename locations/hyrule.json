@@ -336,7 +336,7 @@
             ]
           },
           {
-            "name": "Sanctuary Peg Chest",
+            "name": "Sanctuary Pegs",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -502,7 +502,7 @@
             ],
             "sections": [
               {
-                "name": "Maiamai Under Rooftop Rock",
+                "name": "[Mai] Woman's Roof",
                 "item_count": 1,
                 "chest_unopened_img": "images/items/maiamai.png",
                 "chest_opened_img": "images/items/maiamai_opened.png",
@@ -551,7 +551,7 @@
             ]
           },
           {
-            "name": "Cucco Minigame",
+            "name": "Dodge the Cuccos",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -681,7 +681,7 @@
             ]
           },
           {
-            "name": "Rupee Rush",
+            "name": "Rupee Rush (Hyrule)",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -705,7 +705,7 @@
         "name": "Central Hyrule",
         "children": [
           {
-            "name": "Ravio's Shop",
+            "name": "Link's House",
             "color": "#a000ac",
             "map_locations": [
               {
@@ -716,11 +716,11 @@
             ],
             "sections": [
               {
-                "name": "Ravio's Rent",
+                "name": "Ravio's Gift",
                 "item_count": 1
               },
               {
-                "name": "For Sale",
+                "name": "Ravio's Shop",
                 "capture_item": true,
                 "clear_as_group": false,
                 "item_count": 8
@@ -762,7 +762,7 @@
             ]
           },
           {
-            "name": "Hyrule Blacksmith Maiamai",
+            "name": "Blacksmith Ledge",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -774,8 +774,6 @@
               {
                 "name": "Behind House",
                 //"capture_item": true,
-                "chest_unopened_img": "images/items/maiamai.png",
-                "chest_opened_img": "images/items/maiamai_opened.png",
                 "access_rules": [
                   //"{}",
                   "merge",
@@ -787,7 +785,7 @@
             ]
           },
           {
-            "name": "Hyrule Blacksmith Big Rock Cave",
+            "name": "Blacksmith Cave",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -808,7 +806,7 @@
             ]
           },
           {
-            "name": "Hyrule Castle Rock Circle",
+            "name": "Hyrule Castle Rocks",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -828,7 +826,7 @@
             ]
           },
           {
-            "name": "Wildlife Clearing",
+            "name": "Haunted Grove Stump",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -1062,7 +1060,7 @@
         "name": "Southern Ruins",
         "children": [
           {
-            "name": "Southern Ruins West Ledge Chest",
+            "name": "Southern Ruins Ledge",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -1157,7 +1155,7 @@
         "name": "Lake Hylia",
         "children": [
           {
-            "name": "Lake Hylia Merge Cliff Chest",
+            "name": "Lake Hylia Ledge Chest",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -1198,7 +1196,7 @@
             ]
           },
           {
-            "name": "Southeastern Shore",
+            "name": "Lake Hylia Eastern Shore",
             "map_locations": [
               {
                 "map": "hyrule",
