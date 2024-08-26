@@ -199,7 +199,7 @@
         ]
       },
       {
-        "name": "[Mai] Lost Woods Path Rock",
+        "name": "[Mai] Lost Woods Rock",
         "map_locations": [
           {
             "map": "hyrule",
@@ -248,7 +248,7 @@
         ]
       },
       {
-        "name": "Lost Woods Bush Maiamai",
+        "name": "[Mai] Lost Woods Bush",
         "map_locations": [
           {
             "map": "hyrule",
@@ -268,7 +268,7 @@
         ]
       },
       {
-        "name": "Lost Woods Path Maiamai",
+        "name": "[Mai] Lost Woods Path Rock",
         "map_locations": [
           {
             "map": "hyrule",
@@ -295,7 +295,7 @@
         ]
       },
       {
-        "name": "Moldorm Cave Maiamai",
+        "name": "[Mai] Moldorm Ledge",
         "map_locations": [
           {
             "map": "hyrule",
@@ -346,7 +346,7 @@
         ]
       },
       {
-        "name": "Witch's Hut Maiamai",
+        "name": "[Mai] Witch's House",
         "map_locations": [
           {
             "map": "hyrule",
@@ -371,7 +371,7 @@
         ]
       },
       {
-        "name": "Zora Submerged Maiamai",
+        "name": "[Mai] Zora's Domain",
         "map_locations": [
           {
             "map": "hyrule",
@@ -398,7 +398,7 @@
         ]
       },
       {
-        "name": "Zora Wall Maiamai",
+        "name": "[Mai] South of Zora's Domain",
         "map_locations": [
           {
             "map": "hyrule",
@@ -424,7 +424,7 @@
         ]
       },
       {
-        "name": "Zora's River Maiamai",
+        "name": "[Mai] Waterfall Ledge",
         "map_locations": [
           {
             "map": "hyrule",
@@ -480,7 +480,7 @@
         ]
       },
       {
-        "name": "Graveyard Ledge Maiamai",
+        "name": "[Mai] Hyrule Graveyard Wall",
         "map_locations": [
           {
             "map": "hyrule",
@@ -528,7 +528,7 @@
         ]
       },
       {
-        "name": "Kakariko Sand Maiamai",
+        "name": "[Mai] Kakariko Sand",
         "map_locations": [
           {
             "map": "hyrule",
@@ -699,7 +699,7 @@
         ]
       },
       {
-        "name": "Haunted Grove Rock Maiamai",
+        "name": "[Mai] Outside Cucco Mini-Dungeon",
         "map_locations": [
           {
             "map": "hyrule",
@@ -972,7 +972,7 @@
         ]
       },
       {
-        "name": "Desert Buried Maiamai",
+        "name": "[Mai] Buried in the Desert",
         "map_locations": [
           {
             "map": "hyrule",
@@ -996,7 +996,7 @@
         ]
       },
       {
-        "name": "Desert Palace Maiamai",
+        "name": "[Mai] Buried near Desert Palace",
         "map_locations": [
           {
             "map": "hyrule",
@@ -1047,7 +1047,7 @@
         ]
       },
       {
-        "name": "Southern Ruins Bomb Cave Maiamai",
+        "name": "[Mai] Southern Ruins Bomb Cave",
         "map_locations": [
           {
             "map": "hyrule",
@@ -1240,7 +1240,7 @@
         ],
         "children": [
           {
-            "name": "Skull Woods Region",
+            "name": "[Mai] n-Shaped House Wall",
             "map_locations": [
               {
                 "map": "lorule",
@@ -1265,7 +1265,7 @@
             ]
           },
           {
-            "name": "Skull Woods Region",
+            "name": "[Mai] Skull Woods Entrance Wall",
             "map_locations": [
               {
                 "map": "lorule",
@@ -1289,7 +1289,7 @@
             ]
           },
           {
-            "name": "Skull Woods Region",
+            "name": "[Mai] Skull Woods Dry Pond",
             "map_locations": [
               {
                 "map": "lorule",
@@ -1313,7 +1313,7 @@
             ]
           },
           {
-            "name": "Skull Woods Region",
+            "name": "[Mai] Skull Woods Bush",
             "map_locations": [
               {
                 "map": "lorule",
@@ -1334,7 +1334,7 @@
             ]
           },
           {
-            "name": "Skull Woods Region",
+            "name": "[Mai] Destroyed House Tree",
             "map_locations": [
               {
                 "map": "lorule",
@@ -1358,7 +1358,7 @@
             ]
           },
           {
-            "name": "Skull Woods Region",
+            "name": "[Mai] Skull Woods Skull",
             "map_locations": [
               {
                 "map": "lorule",
@@ -1392,7 +1392,7 @@
             ]
           },
           {
-            "name": "Skull Woods Region",
+            "name": "[Mai] Skull Woods Grass",
             "map_locations": [
               {
                 "map": "lorule",
@@ -1416,7 +1416,7 @@
             ]
           },
           {
-            "name": "Skull Woods Region",
+            "name": "[Mai] Skull Woods Rock",
             "map_locations": [
               {
                 "map": "lorule",
@@ -1452,7 +1452,7 @@
         ],
         "children": [
           {
-            "name": "Graveyard",
+            "name": "[Mai] Lorule Graveyard Big Rock",
             "map_locations": [
               {
                 "map": "lorule",
@@ -1476,7 +1476,7 @@
             ]
           },
           {
-            "name": "Graveyard",
+            "name": "[Mai] Lorule Graveyard Wall",
             "map_locations": [
               {
                 "map": "lorule",
@@ -1500,7 +1500,7 @@
             ]
           },
           {
-            "name": "Graveyard",
+            "name": "[Mai] Lorule Graveyard Tree",
             "map_locations": [
               {
                 "map": "lorule",
@@ -1538,7 +1538,7 @@
         ],
         "children": [
           {
-            "name": "Dark Ruins",
+            "name": "[Mai] Dark Ruins Bonk Rocks",
             "map_locations": [
               {
                 "map": "lorule",
@@ -1563,7 +1563,7 @@
             ]
           },
           {
-            "name": "Dark Ruins",
+            "name": "[Mai] Dark Ruins Waterfall",
             "map_locations": [
               {
                 "map": "lorule",
@@ -1590,7 +1590,7 @@
             ]
           },
           {
-            "name": "Ku's Domain",
+            "name": "[Mai] Outside Hinox Cave",
             "map_locations": [
               {
                 "map": "lorule",
@@ -1616,7 +1616,7 @@
             ]
           },
           {
-            "name": "Ku's Domain",
+            "name": "[Mai] Ku's Domain Grass",
             "map_locations": [
               {
                 "map": "lorule",
@@ -1640,7 +1640,7 @@
             ]
           },
           {
-            "name": "Ku's Domain",
+            "name": "[Mai] Ku's Domain Water",
             "map_locations": [
               {
                 "map": "lorule",
@@ -1665,7 +1665,7 @@
             ]
           },
           {
-            "name": "Dark Ruins",
+            "name": "[Mai] Dark Ruins West Tree",
             "map_locations": [
               {
                 "map": "lorule",
@@ -1689,7 +1689,7 @@
             ]
           },
           {
-            "name": "Dark Ruins",
+            "name": "[Mai] Dark Ruins East Tree",
             "map_locations": [
               {
                 "map": "lorule",
@@ -1713,7 +1713,7 @@
             ]
           },
           {
-            "name": "Dark Maze",
+            "name": "[Mai] Dark Maze Entrance Wall",
             "map_locations": [
               {
                 "map": "lorule",
@@ -1737,7 +1737,7 @@
             ]
           },
           {
-            "name": "Dark Maze",
+            "name": "[Mai] Dark Ruins South Wall",
             "map_locations": [
               {
                 "map": "lorule",
@@ -1761,7 +1761,7 @@
             ]
           },
           {
-            "name": "Dark Maze",
+            "name": "[Mai] Dark Maze Center Wall",
             "map_locations": [
               {
                 "map": "lorule",
@@ -1798,7 +1798,7 @@
         ],
         "children": [
           {
-            "name": "Lorule Blacksmith",
+            "name": "[Mai] Lorule Blacksmith Wall",
             "map_locations": [
               {
                 "map": "lorule",
@@ -1823,7 +1823,7 @@
             ]
           },
           {
-            "name": "Lorule Fortune-Teller",
+            "name": "[Mai] Lorule Fortune-Teller Rock",
             "map_locations": [
               {
                 "map": "lorule",
@@ -1847,7 +1847,7 @@
             ]
           },
           {
-            "name": "Thieves' Town",
+            "name": "[Mai] Thieves' Town Tree",
             "map_locations": [
               {
                 "map": "lorule",
@@ -1871,7 +1871,7 @@
             ]
           },
           {
-            "name": "Thieves' Town",
+            "name": "[Mai] Thieves' Town Wall",
             "map_locations": [
               {
                 "map": "lorule",
@@ -1917,7 +1917,7 @@
             ]
           },
           {
-            "name": "Lorule Rupee Rush",
+            "name": "[Mai] Lorule Rupee Rush Wall",
             "map_locations": [
               {
                 "map": "lorule",
@@ -1942,7 +1942,7 @@
             ]
           },
           {
-            "name": "Octoball Derby",
+            "name": "[Mai] Octoball Derby Skull",
             "map_locations": [
               {
                 "map": "lorule",
@@ -1978,7 +1978,7 @@
             ]
           },
           {
-            "name": "Lorule Haunted Grove",
+            "name": "[Mai] Lorule Haunted Grove Wall",
             "map_locations": [
               {
                 "map": "lorule",
@@ -2003,7 +2003,7 @@
             ]
           },
           {
-            "name": "Vacant House",
+            "name": "[Mai] Vacant House Rock",
             "map_locations": [
               {
                 "map": "lorule",
@@ -2027,7 +2027,7 @@
             ]
           },
           {
-            "name": "Vacant House",
+            "name": "[Mai] Behind Vacant House",
             "map_locations": [
               {
                 "map": "lorule",
@@ -2052,7 +2052,7 @@
             ]
           },
           {
-            "name": "Lorule Castle",
+            "name": "[Mai] Lorule Castle Wall",
             "map_locations": [
               {
                 "map": "lorule",
@@ -2077,7 +2077,7 @@
             ]
           },
           {
-            "name": "Lorule Castle",
+            "name": "[Mai] Lorule Castle Tree",
             "map_locations": [
               {
                 "map": "lorule",
@@ -2101,7 +2101,7 @@
             ]
           },
           {
-            "name": "Lorule Southern Ruins",
+            "name": "[Mai] Lorule S Ruins Wall",
             "map_locations": [
               {
                 "map": "lorule",
@@ -2126,7 +2126,7 @@
             ]
           },
           {
-            "name": "Lorule Southern Ruins",
+            "name": "[Mai] Lorule S Ruins Water",
             "map_locations": [
               {
                 "map": "lorule",
@@ -2151,7 +2151,7 @@
             ]
           },
           {
-            "name": "Lorule Southern Ruins",
+            "name": "[Mai] Lorule S Ruins Pillars",
             "map_locations": [
               {
                 "map": "lorule",
@@ -2187,7 +2187,7 @@
         ],
         "children": [
           {
-            "name": "Misery Mire",
+            "name": "[Mai] Misery Mire Wall",
             "map_locations": [
               {
                 "map": "lorule",
@@ -2236,7 +2236,7 @@
             ]
           },
           {
-            "name": "Misery Mire",
+            "name": "[Mai] Misery Mire Rock",
             "map_locations": [
               {
                 "map": "lorule",
@@ -2271,7 +2271,7 @@
         ],
         "children": [
           {
-            "name": "Near Lake Shop",
+            "name": "[Mai] Lorule Lake West Wall",
             "map_locations": [
               {
                 "map": "lorule",
@@ -2338,7 +2338,7 @@
             ]
           },
           {
-            "name": "Stuck to SE Wall",
+            "name": "[Mai] Lorule Lake SE Wall",
             "map_locations": [
               {
                 "map": "lorule",
@@ -2371,7 +2371,7 @@
             ]
           },
           {
-            "name": "East Ledge Skull",
+            "name": "[Mai] Lorule Lake Skull",
             "map_locations": [
               {
                 "map": "lorule",
@@ -2404,7 +2404,7 @@
             ]
           },
           {
-            "name": "Lake Rupee Ring",
+            "name": "[Mai] Lorule Lake Water",
             "map_locations": [
               {
                 "map": "lorule",

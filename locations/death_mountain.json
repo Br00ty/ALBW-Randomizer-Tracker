@@ -88,7 +88,7 @@
       },
 
       {
-        "name": "Death Mountain",
+        "name": "Death Mountain Open Cave",
         "map_locations": [
           {
             "map": "hyrule",
@@ -98,7 +98,7 @@
         ],
         "sections": [
           {
-            "name": "Cave Left of Weather Vane",
+            //"name": "Cave Left of Weather Vane",
             "access_rules": [
               "$access_dm_west_base",
               "[glitched]"
@@ -108,7 +108,7 @@
         ]
       },
       {
-        "name": "Death Mountain",
+        "name": "[Mai] Death Mountain Base Rock",
         "map_locations": [
           {
             "map": "hyrule",
@@ -137,7 +137,7 @@
 
 
       {
-        "name": "Death Mountain",
+        "name": "Donkey Cave Ledge",
         "map_locations": [
           {
             "map": "hyrule",
@@ -147,7 +147,7 @@
         ],
         "sections": [
           {
-            "name": "Ledge Chest",
+            //"name": "Ledge Chest",
             "access_rules": [
               "$access_dm_west_top",
               "[advanced], $adv_glitched_access_dm_west_top",
@@ -158,7 +158,7 @@
         ]
       },
       {
-        "name": "Death Mountain",
+        "name": "[Mai] Death Mountain West Ledge",
         "map_locations": [
           {
             "map": "hyrule",
@@ -207,7 +207,7 @@
         ]
       },
       {
-        "name": "Death Mountain West Highest Cave",
+        "name": "Spectacle Rock",
         "map_locations": [
           {
             "map": "hyrule",
@@ -217,7 +217,7 @@
         ],
         "sections": [
           {
-            "name": "Spectacle Rock",
+            //"name": "Spectacle Rock",
             "access_rules": [
               "$access_dm_west_top",
               "[advanced], $adv_glitched_access_dm_west_top",
@@ -230,7 +230,7 @@
 
 
       {
-        "name": "Death Mountain",
+        "name": "Hookshot Mini-Dungeon",
         "map_locations": [
           {
             "map": "hyrule",
@@ -240,7 +240,7 @@
         ],
         "sections": [
           {
-            "name": "Treasure Dungeon",
+            //"name": "Treasure Dungeon",
             "access_rules": [
               "$access_dm_east_top, merge, hookshot",
               "[advanced], $adv_glitched_access_dm_east_top, merge, hookshot"
@@ -250,7 +250,7 @@
         ]
       },
       {
-        "name": "Death Mountain",
+        "name": "[Mai] Outside Hookshot Mini-Dungeon",
         "map_locations": [
           {
             "map": "hyrule",
@@ -278,7 +278,7 @@
         ]
       },
       {
-        "name": "Death Mountain",
+        "name": "Fire Cave Pillar",
         "map_locations": [
           {
             "map": "hyrule",
@@ -288,7 +288,7 @@
         ],
         "sections": [
           {
-            "name": "Fire Cave Pillar",
+            //"name": "Fire Cave Pillar",
             //"capture_item": true,
             "access_rules": [
               "$access_dm_east_top, merge, hammer",
@@ -321,13 +321,13 @@
         ]
       },
       {
-        "name": "Death Mountain",
+        "name": "[Mai] Fire Cave Ledge",
         "map_locations": [
           {
             "map": "hyrule",
             "x": 1639,
             "y": 254,
-            "size": 48
+            "size": 35
           }
         ],
         "sections": [
@@ -349,7 +349,7 @@
         ]
       },
       {
-        "name": "Rosso's Ore Mine",
+        "name": "[Mai] Rosso's Ore Mine",
         "map_locations": [
           {
             "map": "hyrule",
@@ -400,7 +400,7 @@
             ]
           },
           {
-            "name": "Floating Island",
+            //"name": "Floating Island",
             "access_rules": [
               "crack_hyfi, merge",
               "not_cracksanity, crack_lofi, merge, quake"
@@ -412,7 +412,7 @@
       },
 
       {
-        "name": "Lorule Death Mountain",
+        "name": "Ice Gimos Fight",
         "map_locations": [
           {
             "map": "lorule",
@@ -422,7 +422,7 @@
         ],
         "sections": [
           {
-            "name": "Ice Gimos Fight",
+            //"name": "Ice Gimos Fight",
             "access_rules": [
               "$access_ldm_west, $margomill",
               "[glitched], $glitched_access_ldm_west, $margomill"
@@ -432,7 +432,7 @@
         ]
       },
       {
-        "name": "Lorule Death Mountain",
+        "name": "Lorule Mountain W Ledge",
         "map_locations": [
           {
             "map": "lorule",
@@ -442,7 +442,7 @@
         ],
         "sections": [
           {
-            "name": "West Ledge Chest",
+            //"name": "West Ledge Chest",
             "item_count": 1,
             "access_rules": [
               "$access_ldm_west, merge",
@@ -454,7 +454,7 @@
         ]
       },
       {
-        "name": "Lorule Death Mountain",
+        "name": "Treacherous Tower",
         "map_locations": [
           {
             "map": "lorule",
@@ -464,7 +464,7 @@
         ],
         "sections": [
           {
-            "name": "Treacherous Tower",
+            //"name": "Treacherous Tower",
             "access_rules": [
               "$access_ldm_west, $attack, bombs",
               "$access_ldm_west, $attack, hammer",
@@ -481,7 +481,7 @@
         ]
       },
       {
-        "name": "Lorule Death Mountain",
+        "name": "[Mai] Lorule Mountain W Skull",
         "map_locations": [
           {
             "map": "lorule",
@@ -508,7 +508,7 @@
         ]
       },
       {
-        "name": "Lorule Death Mountain",
+        "name": "[Mai] Lorule Mountain W Big Rock",
         "map_locations": [
           {
             "map": "lorule",
@@ -537,7 +537,7 @@
         ]
       },
       {
-        "name": "Lorule Death Mountain",
+        "name": "[Mai] Lorule Mountain E Big Rock",
         "map_locations": [
           {
             "map": "lorule",
@@ -567,7 +567,7 @@
 
 
       {
-        "name": "Lorule Death Mountain",
+        "name": "Behind Ice Gimos",
         "map_locations": [
           {
             "map": "lorule",
@@ -577,7 +577,7 @@
         ],
         "sections": [
           {
-            "name": "Behind Ice Gimos Trio",
+            //"name": "Behind Ice Gimos Trio",
             "access_rules": [
               "frod, $access_ldm_east_top",
               "[glitched], frod, $glitched_access_ldm_east_top",
@@ -588,7 +588,7 @@
         ]
       },
       {
-        "name": "Lorule Death Mountain",
+        "name": "Ice Cave Ledge",
         "map_locations": [
           {
             "map": "lorule",
@@ -598,7 +598,7 @@
         ],
         "sections": [
           {
-            "name": "East Cliff Chest",
+            //"name": "East Cliff Chest",
             "access_rules": [
               "{csmc, $access_ldm_east_top}",
               "trod, merge, $access_ldm_east_top",
@@ -610,7 +610,7 @@
         ]
       },
       {
-        "name": "Lorule Death Mountain",
+        "name": "[Mai] Lorule Mountain E Wall",
         "map_locations": [
           {
             "map": "lorule",
@@ -638,7 +638,7 @@
         ]
       },
       {
-        "name": "Lorule Death Mountain",
+        "name": "[Mai] Ice Cave Ledge",
         "map_locations": [
           {
             "map": "lorule",
@@ -668,7 +668,7 @@
         ]
       },
       {
-        "name": "Lorule Death Mountain",
+        "name": "[Mai] Outside Ice Ruins",
         "map_locations": [
           {
             "map": "lorule",

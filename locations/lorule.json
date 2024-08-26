@@ -11,7 +11,7 @@
         ],
         "children": [
           {
-            "name": "Skull Woods Region",
+            "name": "n-Shaped House",
             "map_locations": [
               {
                 "map": "lorule",
@@ -33,7 +33,7 @@
             ]
           },
           {
-            "name": "Skull Woods Region",
+            "name": "Destroyed House",
             "map_locations": [
               {
                 "map": "lorule",
@@ -138,7 +138,7 @@
             ],
             "sections": [
               {
-                "name": "Big Chest",
+                //"name": "Big Chest",
                 "chest_unopened_img": "images/checks/chest_big_unopened.png",
                 "chest_opened_img": "images/checks/chest_big_opened.png",
                 "access_rules": [
@@ -154,7 +154,7 @@
         ]
       },
       {
-        "name": "Graveyard",
+        "name": "Graveyard Peninsula",
         "map_locations": [
           {
             "map": "lorule",
@@ -164,7 +164,7 @@
         ],
         "sections": [
           {
-            "name": "Peninsula Chest",
+            //"name": "Peninsula Chest",
             "access_rules": [
               "{csmc, $access_dark_ruins}",
               "$access_lorule_graveyard",
@@ -175,7 +175,7 @@
         ]
       },
       {
-        "name": "Ku's Domain",
+        "name": "Hinox Cave (1-6)",
         "map_locations": [
           {
             "map": "lorule",
@@ -185,7 +185,7 @@
         ],
         "sections": [
           {
-            "name": "Hinox Cave",
+            //"name": "Hinox Cave",
             "item_count": 6,
             "access_rules": [
               "merge, $access_dark_ruins",
@@ -207,7 +207,7 @@
         ],
         "children": [
           {
-            "name": "Ku's Domain",
+            "name": "Ku's Domain Fight",
             "map_locations": [
               {
                 "map": "lorule",
@@ -217,7 +217,7 @@
             ],
             "sections": [
               {
-                "name": "Fight",
+                //"name": "Fight",
                 "access_rules": [
                   "merge, bow",
                   "merge, bombs",
@@ -233,7 +233,7 @@
             ]
           },
           {
-            "name": "Dark Maze",
+            "name": "Dark Maze Chest",
             "map_locations": [
               {
                 "map": "lorule",
@@ -243,7 +243,7 @@
             ],
             "sections": [
               {
-                "name": "Chest",
+                //"name": "Chest",
                 "item_count": 1,
                 "access_rules": [
                   "merge",
@@ -253,7 +253,7 @@
             ]
           },
           {
-            "name": "Dark Maze",
+            "name": "Dark Maze Ledge",
             "map_locations": [
               {
                 "map": "lorule",
@@ -263,7 +263,7 @@
             ],
             "sections": [
               {
-                "name": "Ledge",
+                //"name": "Ledge",
                 "capture_item": true,
                 "item_count": 1,
                 "access_rules": [
@@ -383,7 +383,7 @@
             ]
           },
           {
-            "name": "Lorule Southern Ruins",
+            "name": "Thief Girl",
             "map_locations": [
               {
                 "map": "lorule",
@@ -393,7 +393,7 @@
             ],
             "sections": [
               {
-                "name": "Thief Girl Cave",
+                //"name": "Thief Girl Cave",
                 "access_rules": [
                   "label_power_tt, power",
                   "label_wisdom_tt, wisdom",
@@ -428,7 +428,7 @@
             ]
           },
           {
-            "name": "Lorule Haunted Grove",
+            "name": "Lorule Field Hookshot Chest",
             "map_locations": [
               {
                 "map": "lorule",
@@ -438,7 +438,7 @@
             ],
             "sections": [
               {
-                "name": "Hookshot Chest",
+                //"name": "Hookshot Chest",
                 "access_rules": [
                   "{csmc}",
                   "not_cracksanity, quake, merge, hookshot",
@@ -449,7 +449,7 @@
             ]
           },
           {
-            "name": "Lorule Haunted Grove",
+            "name": "Big Bomb Flower Cave",
             "map_locations": [
               {
                 "map": "lorule",
@@ -459,7 +459,7 @@
             ],
             "sections": [
               {
-                "name": "Big Bomb Cave",
+                //"name": "Big Bomb Cave",
                 "item_count": 1
               }
             ]
@@ -484,7 +484,7 @@
             ]
           },
           {
-            "name": "Lorule Rupee Rush",
+            "name": "Rupee Rush (Lorule)",
             "map_locations": [
               {
                 "map": "lorule",
@@ -529,7 +529,7 @@
         ],
         "children": [
           {
-            "name": "Misery Mire",
+            "name": "Sand Mini-Dungeon",
             "map_locations": [
               {
                 "map": "lorule",
@@ -574,7 +574,7 @@
             ]
           },
           {
-            "name": "Ledge",
+            "name": "Misery Mire Ledge",
             //"capture_item": true,
             "access_rules": [
               //"{}",
@@ -590,7 +590,7 @@
         "name": "Lorule Lake",
         "children": [
           {
-            "name": "Canyon Overlook Chest",
+            "name": "Lorule Lake Chest",
             "map_locations": [
               {
                 "map": "lorule",

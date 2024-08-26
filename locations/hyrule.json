@@ -8,7 +8,7 @@
         "name": "Lost Woods",
         "children": [
           {
-            "name": "Lost Woods Big Rock Chest",
+            "name": "Lost Woods Chest",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -86,14 +86,14 @@
             ],
             "sections": [
               {
-                "name": "Rosso",
+                "name": "Rosso (1)",
                 "access_rules": [
                   "rosso"
                 ],
                 "item_count": 1
               },
               {
-                "name": "Rosso Rocks",
+                "name": "Rosso (2)",
                 "access_rules": [
                   "rosso, power_glove"
                 ],
@@ -134,7 +134,7 @@
             ]
           },
           {
-            "name": "Hyrule Fortune-Teller",
+            "name": "Fortune-Teller",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -317,7 +317,7 @@
             ]
           },
           {
-            "name": "Sanctuary Treasure Dungeon",
+            "name": "River Mini-Dungeon",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -355,7 +355,7 @@
             ]
           },
           {
-            "name": "Zora Ledge Chest",
+            "name": "Zora's Domain Ledge",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -461,7 +461,7 @@
             ]
           },
           {
-            "name": "Stylish Woman's House",
+            "name": "Stylish Woman",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -472,7 +472,7 @@
             ],
             "sections": [
               {
-                "name": "Stylish Woman",
+                //"name": "Stylish Woman",
                 "item_count": 1,
                 "access_rules": [
                   "not_cracksanity, merge, quake, crack_thieves_town",
@@ -515,7 +515,7 @@
                 ]
               },
               {
-                "name": "Exterminate Roof Maiamai",
+                "name": "Woman [Exterminate Roof Maiamai]",
                 "access_rules": [
                   "power_glove"
                 ],
@@ -524,7 +524,7 @@
             ]
           },
           {
-            "name": "Bee Guy",
+            "name": "Bee Guy (1-2)",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -591,7 +591,7 @@
             ]
           },
           {
-            "name": "Kakariko Jail Cell",
+            "name": "Kakariko Jail",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -666,7 +666,7 @@
             ],
             "sections": [
               {
-                "name": "Jump into Well",
+                "name": "Top (Jump into Well)",
                 //"capture_item": true,
                 "access_rules": [
                   "power_glove",
@@ -675,7 +675,7 @@
                 "item_count": 1
               },
               {
-                "name": "Cave Chest",
+                "name": "Bottom",
                 "item_count": 1
               }
             ]
@@ -752,7 +752,7 @@
                 "item_count": 1
               },
               {
-                "name": "Give 2 Master Ore",
+                "name": "Blacksmith (Give 2 Master Ore)",
                 "access_rules": [
                   "ore_2"
                 ],
@@ -845,7 +845,7 @@
             ]
           },
           {
-            "name": "Cucco Dungeon",
+            "name": "Cucco Mini-Dungeon",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -855,7 +855,7 @@
             ],
             "sections": [
               {
-                "name": "Silver Rupee (Ignore Model)",
+                "name": "Silver Rupee",
                 "access_rules": [
                   "merge"
                 ],
@@ -920,7 +920,7 @@
             ]
           },
           {
-            "name": "Eastern Ruins Bomb Cave",
+            "name": "Eastern Ruins Cave",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -1035,7 +1035,7 @@
                 ]
               },
               {
-                "name": "Eastern Ruins Treasure Dungeon",
+                "name": "Merge Mini-Dungeon",
                 "map_locations": [
                   {
                     "map": "hyrule",
@@ -1118,7 +1118,7 @@
             ]
           },
           {
-            "name": "Southern Ruins Treasure Dungeon",
+            "name": "Flippers Mini-Dungeon",
             "map_locations": [
               {
                 "map": "hyrule",
